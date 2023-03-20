@@ -1,0 +1,19 @@
+input{
+    margin-left:35%;
+    margin-top: 5%;
+}
+#dob{
+    padding: 2px 1px 4px 2px;
+
+    
+}
+input[type="date"]{
+    width: 25%;
+    padding-right: 50px;
+}
+button{
+margin-left:1%;
+}
+div{
+    text-align: center;
+}
