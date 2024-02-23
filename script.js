@@ -64,6 +64,6 @@ function getyears(value1,value2){
  
 function getmonths(value1,value2){
     var year=getyears(value1,value2);
-    var month=(year*12)-1+(value2.getMonth()-value1.getMonth());
+    var month=(year*12)+(value2.getMonth()-value1.getMonth());
     return month;
 }
